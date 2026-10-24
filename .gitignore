@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+paper1/paper/
+paper1/data/

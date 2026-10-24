@@ -1,0 +1,124 @@
+{
+ "CRK5-s": {
+  "conditions": 17,
+  "unknowns": 29,
+  "fixed": [
+   0,
+   8,
+   13,
+   15,
+   16,
+   17,
+   19,
+   22,
+   24,
+   25,
+   26,
+   28
+  ],
+  "proved": true,
+  "box_radius": 1e-50,
+  "K_radius": 1.1495382685226444e-85,
+  "F_enclosure": 1.2507127777688997e-85,
+  "cond_square": 3144.5399271705255,
+  "shift_from_refined": 1.756047056557793e-61,
+  "shift_refinement_of_stored": 5.316523530532797e-46,
+  "seconds": 1
+ },
+ "CCK6(5)[6]": {
+  "conditions": 37,
+  "unknowns": 41,
+  "fixed": [
+   5,
+   9,
+   22,
+   23
+  ],
+  "proved": true,
+  "box_radius": 1e-50,
+  "K_radius": 2.232640963437797e-85,
+  "F_enclosure": 1.4891387949405962e-85,
+  "cond_square": 34517185.09889372,
+  "shift_from_refined": 2.6736419051566992e-61,
+  "shift_refinement_of_stored": 4.5226484893482376e-46,
+  "seconds": 3
+ },
+ "CCK6(5)-s[6]": {
+  "conditions": 37,
+  "unknowns": 41,
+  "fixed": [
+   10,
+   11,
+   15,
+   40
+  ],
+  "proved": true,
+  "box_radius": 1e-50,
+  "K_radius": 2.022915968251001e-85,
+  "F_enclosure": 1.2868893973670072e-85,
+  "cond_square": 152458.30294700604,
+  "shift_from_refined": 1.4827978973583149e-61,
+  "shift_refinement_of_stored": 5.416020767391468e-46,
+  "seconds": 3
+ },
+ "CRK5-opt": {
+  "conditions": 17,
+  "unknowns": 29,
+  "fixed": [
+   0,
+   1,
+   4,
+   9,
+   10,
+   16,
+   17,
+   23,
+   24,
+   25,
+   26,
+   28
+  ],
+  "proved": true,
+  "box_radius": 1e-50,
+  "K_radius": 8.0477015342573e-86,
+  "F_enclosure": 1.5401247940354112e-85,
+  "cond_square": 16903.929036812784,
+  "shift_from_refined": 2.206402972859221e-61,
+  "shift_refinement_of_stored": 9.573900909444042e-46,
+  "seconds": 1
+ },
+ "CCK6-casc[6]+c6": {
+  "conditions": 38,
+  "unknowns": 41,
+  "fixed": [
+   4,
+   10,
+   40
+  ],
+  "proved": false,
+  "box_radius": 1e-50,
+  "K_radius": 1.6157683629166468e-08,
+  "F_enclosure": 1.608611746708759e-85,
+  "cond_square": 1.318168399353928e+18,
+  "shift_from_refined": 6.960085554026589e-24,
+  "shift_refinement_of_stored": 5.521048933510486e-46,
+  "seconds": 4
+ },
+ "CCK6(5)[6]+c6": {
+  "conditions": 38,
+  "unknowns": 41,
+  "fixed": [
+   9,
+   22,
+   23
+  ],
+  "proved": false,
+  "box_radius": 1e-50,
+  "K_radius": 4.332317946532881e-09,
+  "F_enclosure": 2.6545196277878747e-85,
+  "cond_square": 9.441437831020751e+17,
+  "shift_from_refined": 1.7853593132739922e-26,
+  "shift_refinement_of_stored": 4.5226484893482376e-46,
+  "seconds": 4
+ }
+}

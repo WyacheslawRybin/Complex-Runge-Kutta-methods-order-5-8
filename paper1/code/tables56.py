@@ -32,8 +32,10 @@ MT = r1patch.apply()
 import figures_cost as FC  # noqa: E402
 
 CCK = ("CCK6(5)", "CCK6(5)-s", "CCK6-casc", "CCK6-cascade")
-for lst in (FC.FIXED6, FC.FIG6, FC.ADAPT6, FC.ADAPT, FC.FIXED):
-    lst[:] = [m for m in lst if m not in CCK]
+# tableaux studied in the order 5-6 paper but not reported in this one
+DROP = ("CRK5-1", "CRK5-2", "CRK6-0", "CRK6-lam")
+for lst in (FC.FIXED5, FC.FIXED6, FC.FIG5, FC.FIG6, FC.ADAPT5, FC.ADAPT6, FC.ADAPT, FC.FIXED):
+    lst[:] = [m for m in lst if m not in CCK + DROP]
 
 import tables_cpu_r1 as TC  # noqa: E402
 from figures_cost import adapt_curve, cost_at  # noqa: E402
@@ -101,8 +103,8 @@ def adaptive_tables():
 def measured_tables():
     """measured5/6 and kappa_star of tables_r1 without the CCK columns."""
     import tables_r1 as TR
-    TR.M5[:] = [m for m in TR.M5 if not m.startswith("CCK")]
-    TR.M6[:] = [m for m in TR.M6 if not m.startswith("CCK")]
+    TR.M5[:] = [m for m in TR.M5 if not m.startswith("CCK") and m not in DROP]
+    TR.M6[:] = [m for m in TR.M6 if not m.startswith("CCK") and m not in DROP]
     TR.KAPPA_COLS[:] = [(c, r) for c, r in TR.KAPPA_COLS if not c.startswith("CCK")]
     TR.write = lambda name, lines: open(os.path.join(TAB, "56_" + name), "w", encoding="utf-8").write(
         "\n".join(lines) + "\n")

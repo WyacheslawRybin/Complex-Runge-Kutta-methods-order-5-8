@@ -42,5 +42,5 @@ def rename_figure(fig):
 
 if __name__ == "__main__":
     for s in ["CRK6(4) and CRK6-opt", "RK6-opt / RK6-opt(4)", "CRK6-opt / CRK6(4)", "Vern7 and Vern8 and Verner7(6)",
-              "CRK7-s, CRK7-s(5), CRK8-s", r"\rot{CRK8-s(6)}", "CRK5-1 CRK5-s"]:
+              "CRK7-s, CRK7-s(5), CRK8-s", r"\rot{CRK8-s(6)}", "GJM5 CRK5-s"]:
         print(f"{s!r:40} -> {rename(s)!r}")

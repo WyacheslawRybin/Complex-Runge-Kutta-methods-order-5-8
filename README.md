@@ -2,8 +2,8 @@
 
 Code and data of the paper
 
-> V. Rybin, I. Babkin, A. Karimov, S. S. Muni, D. Butusov. *Complex Explicit Runge–Kutta Methods of
-> Orders Five to Eight with Real Projection.* Mathematics (MDPI), [??: year, volume, DOI].
+> V. Rybin, I. Babkin, A. Karimov, S. S. Muni, D. Butusov. *Complex Explicit Runge–Kutta Methods
+> with Real Projection.* Submitted to Mathematics (MDPI).
 
 The methods are explicit Runge–Kutta methods with complex coefficients applied to a real system
 y' = f(t, y); after every step only the real part of the result is kept. With this projection, orders
@@ -15,6 +15,9 @@ fixed- and variable-step experiments, the C++ timing benchmark, the latency mode
 generate every table and figure of the paper.
 
 The complex Cash–Karp pairs CCK6 and CCK7 are the subject of a companion paper and are not included.
+Some stored results in `order56/` also cover four further CRK5 and CRK6 tableaux that were studied during
+the work but are not reported in the paper; their coefficients are not included, and the scripts of
+`paper1/` skip them.
 
 ## Layout
 

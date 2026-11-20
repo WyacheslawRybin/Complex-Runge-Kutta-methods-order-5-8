@@ -84,6 +84,7 @@ minutes.
 | larger systems | `order56/code/r1/code/bruss2d_r1.py`, `order56/code/r1/code/nbody_r1.py`, `order78/code/lorenz96.py` |
 | latency model, extrapolation and two-chain methods | `order56/code/r1/code/latency_r1.py`, `order56/code/r1/code/gbs_r1.py`, `order56/code/r1/code/gbs246_r1.py`, `order56/code/r1/code/two_chain_r1.py` |
 | branch cuts on the Kepler and Arenstorf problems | `order56/code/r1/code/singular_r1.py`, `order78/code/branchcut.py` |
+| estimate-to-error ratio of the embedded pairs, PI controller, real extrapolation methods of orders seven and eight at equal latency | `order78/code/est_ratio.py`, `order78/code/pi_check.py`, `order78/code/gbs78.py` |
 | C++ timing benchmark | `order56/code/r1/code/bench/`, `order78/code/bench/` |
 
 Run each script from its own folder. The multiple-precision computations (90-digit spectra, Krawczyk

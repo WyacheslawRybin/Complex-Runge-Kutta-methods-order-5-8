@@ -85,6 +85,7 @@ minutes.
 | latency model, extrapolation and two-chain methods | `order56/code/r1/code/latency_r1.py`, `order56/code/r1/code/gbs_r1.py`, `order56/code/r1/code/gbs246_r1.py`, `order56/code/r1/code/two_chain_r1.py` |
 | branch cuts on the Kepler and Arenstorf problems | `order56/code/r1/code/singular_r1.py`, `order78/code/branchcut.py` |
 | estimate-to-error ratio of the embedded pairs, PI controller, real extrapolation methods of orders seven and eight at equal latency | `order78/code/est_ratio.py`, `order78/code/pi_check.py`, `order78/code/gbs78.py` |
+| optimized confluent scheme L and the threshold cost of the Jacobian-vector product, singular-value gaps of CRK7 and CRK8 in 90-digit arithmetic, break-even ratio $\kappa^*$ over the accuracies 1e-4 to 1e-12 | `order78/code/confluent_opt.py`, `order78/code/confluent_opt_mp.py`, `order78/code/sv_gaps.py`, `order78/code/kappa_cross.py` |
 | C++ timing benchmark | `order56/code/r1/code/bench/`, `order78/code/bench/` |
 
 Run each script from its own folder. The multiple-precision computations (90-digit spectra, Krawczyk

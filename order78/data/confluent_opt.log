@@ -1,0 +1,27 @@
+start: E9 = 4.1848e-05, max|coef| = 1.208, resid 1.1e-16
+it 0: E9 = 4.12084e-05, max|coef| = 1.203, rank 62, step 7.50e-02
+it 10: E9 = 2.20137e-05, max|coef| = 1.038, rank 62, step 2.70e-01
+it 20: E9 = 1.59717e-05, max|coef| = 1.447, rank 62, step 2.44e-01
+it 30: E9 = 1.34081e-05, max|coef| = 1.342, rank 62, step 2.19e-01
+it 40: E9 = 1.23240e-05, max|coef| = 1.231, rank 62, step 9.89e-02
+it 50: E9 = 1.19409e-05, max|coef| = 1.181, rank 62, step 4.45e-02
+it 60: E9 = 1.17938e-05, max|coef| = 1.131, rank 62, step 4.01e-02
+it 70: E9 = 1.17024e-05, max|coef| = 1.093, rank 62, step 3.62e-02
+it 80: E9 = 1.16331e-05, max|coef| = 1.063, rank 62, step 3.26e-02
+it 90: E9 = 1.15797e-05, max|coef| = 1.040, rank 62, step 2.94e-02
+it 100: E9 = 1.15376e-05, max|coef| = 1.022, rank 62, step 2.64e-02
+it 110: E9 = 1.15028e-05, max|coef| = 1.052, rank 62, step 2.38e-02
+it 120: E9 = 1.14737e-05, max|coef| = 1.080, rank 62, step 2.15e-02
+it 130: E9 = 1.14486e-05, max|coef| = 1.106, rank 62, step 1.93e-02
+it 140: E9 = 1.14265e-05, max|coef| = 1.131, rank 62, step 1.74e-02
+it 150: E9 = 1.14064e-05, max|coef| = 1.153, rank 62, step 1.57e-02
+it 160: E9 = 1.13868e-05, max|coef| = 1.176, rank 62, step 1.42e-02
+it 170: E9 = 1.13660e-05, max|coef| = 1.197, rank 62, step 1.28e-02
+it 180: E9 = 1.13459e-05, max|coef| = 1.219, rank 62, step 1.15e-02
+it 190: E9 = 1.13250e-05, max|coef| = 1.242, rank 62, step 2.07e-02
+it 200: E9 = 1.12950e-05, max|coef| = 1.264, rank 62, step 1.87e-02
+it 210: E9 = 1.12637e-05, max|coef| = 1.287, rank 62, step 1.68e-02
+it 220: E9 = 1.12245e-05, max|coef| = 1.312, rank 62, step 3.03e-02
+it 230: E9 = 1.11570e-05, max|coef| = 1.339, rank 62, step 2.73e-02
+it 240: E9 = 1.10645e-05, max|coef| = 1.357, rank 62, step 1.23e-02
+final: E9 = 1.10584e-05, max|coef| = 1.3571, resid 9.9e-13

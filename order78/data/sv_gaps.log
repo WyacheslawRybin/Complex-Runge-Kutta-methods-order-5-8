@@ -1,0 +1,12 @@
+CRK7-opt s=7 unknowns=55 conditions=85 resid=4.48e-45
+  span: {'sigma_10': '9.01e-05', 'sigma_11': '3.05e-05', 'sigma_12': '4.50e-96', 'sigma_13': '3.52e-96'}
+  jac:  {'sigma_47': '2.27e-07', 'sigma_48': '2.10e-14', 'sigma_49': '2.88e-49', 'sigma_50': '3.68e-50'}
+CRK7-s s=7 unknowns=55 conditions=85 resid=3.24e-46
+  span: {'sigma_10': '4.32e-04', 'sigma_11': '1.10e-04', 'sigma_12': '5.14e-95', 'sigma_13': '1.16e-95'}
+  jac:  {'sigma_47': '2.08e-06', 'sigma_48': '4.44e-07', 'sigma_49': '8.85e-49', 'sigma_50': '1.83e-49'}
+CRK8-opt s=9 unknowns=89 conditions=200 resid=3.25e-45
+  span: {'sigma_14': '1.10e-05', 'sigma_15': '8.10e-06', 'sigma_16': '7.65e-96', 'sigma_17': '7.24e-96'}
+  jac:  {'sigma_78': '1.02e-08', 'sigma_79': '6.29e-09', 'sigma_80': '3.10e-49', 'sigma_81': '1.12e-49'}
+CRK8-s s=9 unknowns=89 conditions=200 resid=7.98e-46
+  span: {'sigma_14': '4.26e-05', 'sigma_15': '1.78e-05', 'sigma_16': '1.03e-95', 'sigma_17': '9.21e-96'}
+  jac:  {'sigma_78': '3.26e-08', 'sigma_79': '1.88e-08', 'sigma_80': '2.54e-49', 'sigma_81': '1.00e-49'}
